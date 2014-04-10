@@ -36,3 +36,9 @@ Aborted
 
 It returns parent Application A and reboot.
 But developer can't understand Application B behavior.
+
+## Prevention
+
+* Do not return NULL on binary interface
+* Decide unique location of log (X, application, library)
+* Library C's API is bad?
