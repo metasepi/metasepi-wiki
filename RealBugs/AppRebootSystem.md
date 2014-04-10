@@ -9,6 +9,7 @@
 
 ## Why?
 
+A library return NULL when error occur.
 The application code using C++ string. But the string throws exception when input NULL.
 
 ```
