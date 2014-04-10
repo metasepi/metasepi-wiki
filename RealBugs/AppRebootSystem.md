@@ -1,5 +1,21 @@
 # An application using X reboots system
 
+```
++---------------+
+| Application A |
++---------------+
+        |
+        v
++---------------+
+| Application B |
++---------------+
+        |
+        v
++---------------+
+|   Library C   |
++---------------+
+```
+
 ## What?
 
 1. Boot
