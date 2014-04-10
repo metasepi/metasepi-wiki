@@ -20,13 +20,13 @@
 
 1. Boot
 2. Run startx
-3. Run the application
+3. Run the Application A
 4. X and system reboot
 
 ## Why?
 
-A library return NULL when error occur.
-The application code using C++ string. But the string throws exception when input NULL.
+Library C returns NULL when error occurs.
+The Application B code using C++ string. But the string throws exception when input NULL.
 
 ```
 terminate called after throwing an instance of 'std::logic_error'
@@ -34,4 +34,5 @@ terminate called after throwing an instance of 'std::logic_error'
 Aborted
 ```
 
-It returns parent application and reboot.
+It returns parent Application A and reboot.
+But developer can't understand Application B behavior.
